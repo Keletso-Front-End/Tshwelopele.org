@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Tšhwelepele Org</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="logo.png" alt="Tshwelopele Logo">
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-section">
+    <h1>About Us</h1>
+    <p>Tšhwelepele Org is a community-driven nonprofit founded to uplift rural communities through empowerment, advocacy, and sustainable development. We stand for hope, dignity, and opportunity—aiming to spark a future where every household has at least one breadwinner.</p>
+
+    <p>Our work includes school uniform drives, youth entrepreneurship initiatives, and long-term goals such as building a community center with a clinic, a library, and a feeding scheme.</p>
+
+    <p>We are the voice for the unheard and the spark for a generation ready to thrive.</p>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
